@@ -24,8 +24,6 @@ public class LeadService {
     @Autowired
     private UserRepository userRepository;
 
-    @Autowired 
-
     public List<Lead> getAllLeads() {
         return leadRepository.findAll();
     }
